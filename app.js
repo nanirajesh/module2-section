@@ -54,7 +54,7 @@ function AlreadyBoughtController(ShoppingListCheckOffService){
     shoppinglist.removefromtobuyitems=function(index){
       var item=tobuyitems.splice(index,1);
       alreadyboughtitems.push(item[0]);
-      console.log(alreadyboughtitems);
+    
     };
    shoppinglist.getToBuyItems=function(){
      return tobuyitems;
